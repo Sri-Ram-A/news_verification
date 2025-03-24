@@ -1,0 +1,5 @@
+dotenv==0.9.9
+google-genai==1.7.0
+groq==0.20.0
+pydantic
+colorama==0.4.6
