@@ -9,6 +9,7 @@ class DebateResponse(BaseModel):
     gemini_reason: str = Field(..., description="your analysis")
     llama_reason: str = Field(..., description="evaluation of LLaMA's argument")
     deepseek_reason: str = Field(..., description="evaluation of DeepSeek's argument")
+    questions:list[str] = Field(..., description="questions which require more sources and are in google search format")
 
 class GeminiIntermediate:
     def __init__(

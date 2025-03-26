@@ -1,0 +1,12 @@
+"""
+    CONFIGURATION PARAMETERS IN GEMNINI FOR types.GenerateContentConfig()
+        Initializes the chatbot with API key, model, and configuration.
+        Args:
+            api_key (str): Your Google Gemini API key.
+            model_name (str): The Gemini model to use (e.g., "gemini-pro", "gemini-pro-vision").
+            temperature (float): Controls randomness (higher = more random).
+            top_p (float): Controls nucleus sampling (higher = more diverse).
+            top_k (int): Controls top-k sampling.
+            max_output_tokens (int): Limits the response length.
+            system_instruction (str): Sets the model's persona or context.
+"""
